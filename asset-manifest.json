@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/phenikaa-ticket/static/css/main.2379a5ea.chunk.css",
+    "main.js": "/phenikaa-ticket/static/js/main.0062bc7b.chunk.js",
+    "main.js.map": "/phenikaa-ticket/static/js/main.0062bc7b.chunk.js.map",
+    "runtime-main.js": "/phenikaa-ticket/static/js/runtime-main.d865b480.js",
+    "runtime-main.js.map": "/phenikaa-ticket/static/js/runtime-main.d865b480.js.map",
+    "static/css/2.17ff0e0c.chunk.css": "/phenikaa-ticket/static/css/2.17ff0e0c.chunk.css",
+    "static/js/2.c270bb65.chunk.js": "/phenikaa-ticket/static/js/2.c270bb65.chunk.js",
+    "static/js/2.c270bb65.chunk.js.map": "/phenikaa-ticket/static/js/2.c270bb65.chunk.js.map",
+    "static/js/3.89995fd9.chunk.js": "/phenikaa-ticket/static/js/3.89995fd9.chunk.js",
+    "static/js/3.89995fd9.chunk.js.map": "/phenikaa-ticket/static/js/3.89995fd9.chunk.js.map",
+    "index.html": "/phenikaa-ticket/index.html",
+    "static/css/2.17ff0e0c.chunk.css.map": "/phenikaa-ticket/static/css/2.17ff0e0c.chunk.css.map",
+    "static/css/main.2379a5ea.chunk.css.map": "/phenikaa-ticket/static/css/main.2379a5ea.chunk.css.map",
+    "static/js/2.c270bb65.chunk.js.LICENSE.txt": "/phenikaa-ticket/static/js/2.c270bb65.chunk.js.LICENSE.txt",
+    "static/media/HomeApp.css": "/phenikaa-ticket/static/media/backapp.b46ef3a1.jpg",
+    "static/media/UserTemplate.css": "/phenikaa-ticket/static/media/bgAuth-min.b84c6cac.jpg",
+    "static/media/loading.08720277.gif": "/phenikaa-ticket/static/media/loading.08720277.gif",
+    "static/media/slick-theme.css": "/phenikaa-ticket/static/media/slick.c94f7671.ttf",
+    "static/media/homeCarousels.css": "/phenikaa-ticket/static/media/texure.5fd81b0e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d865b480.js",
+    "static/css/2.17ff0e0c.chunk.css",
+    "static/js/2.c270bb65.chunk.js",
+    "static/css/main.2379a5ea.chunk.css",
+    "static/js/main.0062bc7b.chunk.js"
+  ]
+}
