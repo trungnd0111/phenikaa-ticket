@@ -1,0 +1,166 @@
+.homeMenu {
+  border: 3px solid #e71a0f !important;
+  background-color: white !important;
+}
+.homeMenu .diaChi {
+  color: #949494;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+}
+.homeMenu .movieName {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: inherit;
+}
+.homeMenu .ngayChieu {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.homeMenu .gioChieu {
+  font-size: 1rem;
+}
+.homeMenu .gioChieu:hover {
+  color: #e71a0f !important;
+}
+.homeMenu .lichChieuPhim {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+.ant-tabs-tab:hover {
+  color: #e71a0f !important;
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #e71a0f !important;
+  text-shadow: 0 0 0.25px currentColor;
+}
+/* Custom scroll */
+.homeMenu .cumRap .ant-tabs-nav-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.homeMenu .cumRap .ant-tabs-nav-list::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+  border-radius: 100px;
+}
+
+.homeMenu .cumRap .ant-tabs-nav-list::-webkit-scrollbar-thumb {
+  background-color: #847f79;
+  border-radius: 100px;
+}
+
+.homeMenu .lichChieuPhimCumRap::-webkit-scrollbar {
+  width: 6px;
+}
+
+.homeMenu .lichChieuPhimCumRap::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+  border-radius: 100px;
+}
+
+.homeMenu .lichChieuPhimCumRap::-webkit-scrollbar-thumb {
+  background-color: #847f79;
+  border-radius: 100px;
+}
+
+.homeMenu .cumRap .ant-tabs-nav-list {
+  height: 580px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+.homeMenu .lichChieuPhimCumRap {
+  height: 580px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+.homeMenu .lichChieuPhimCumRapItem{
+  display: flex;
+  width: 300px;
+}
+/* //Response */
+
+@media screen and (max-width: 1080px)  {
+  .homeMenu .lichChieuPhim {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.1rem;
+  }
+
+  .homeMenu .cumRap .ant-tabs-nav-list {
+    height: 400px;
+  }
+  .homeMenu .lichChieuPhimCumRap {
+    height: 400px;
+  }
+
+}
+
+@media screen and (min-width: 1010px) {
+  .homeMenu .ant-tabs-tab {
+    margin: 8px 0 0 0 !important;
+  }
+}
+
+@media screen and (max-width: 1010px) {
+  .homeMenu .lichChieuPhim {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.5rem;
+  }
+  .homeMenu .ant-tabs-nav-list {
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1010px)  {
+  .homeMenu .lichChieuPhim {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem;
+  }
+
+  .homeMenu .cumRap .ant-tabs-nav-list {
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 1010px)  {
+  .homeMenu .lichChieuPhim {
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 580px)  {
+  .homeMenu .cumRap .ant-tabs-nav-list {
+    width: 310px;
+    height: 580px !important;
+  }
+  .homeMenu .lichChieuPhimCumRap {
+    height: 580px !important;
+  }
+  
+  .homeMenu .cumRap .ant-tabs-nav-list .ant-tabs-tab{
+    padding: 8px 0;
+  }
+  .homeMenu .lichChieuPhim {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 440px)  {
+  .homeMenu .cumRap .ant-tabs-nav-list {
+    width: 195px !important;
+  }
+  .homeMenu .lichChieuPhimCumRapItem img{
+    display: none;
+  }
+  .homeMenu .lichChieuPhimCumRapItem{
+    width: 190px !important;
+  }
+}
+@media screen and (max-width: 440px)  {
+  .homeMenu .lichChieuPhimCumRap{
+    padding: 10px;
+  }
+}

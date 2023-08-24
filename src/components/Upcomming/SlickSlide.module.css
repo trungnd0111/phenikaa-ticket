@@ -1,0 +1,8 @@
+.active_Film {
+    @apply bg-red-600 text-white;
+}
+
+
+.none_active_Film {
+    @apply bg-white text-gray-800;
+}

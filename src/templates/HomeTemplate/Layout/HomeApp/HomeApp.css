@@ -1,0 +1,44 @@
+.homeApp {
+    color: #fff;
+    background-image: url("./backapp.jpg");
+}
+.homeApp .homeAppContent {
+    height: fit-content;
+    margin: auto;
+    max-width: 1200px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.homeAppContent .textContent h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #fff;
+}
+.homeAppContent .textContent p {
+    font-size: 1rem;
+}
+.homeAppContent .ipContent{
+    position: relative;
+}
+.homeAppContent .ipContent .ipContentImg {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 0 28%;
+}
+.homeAppContent .ipContent .ipContentImgSlider {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 99%;
+    padding: 1.5% 29.1% 1.3% 29.3%;
+    position: absolute !important;
+}
+.homeAppContent .ipContent .ipContentImgSlider img {
+    border-radius: 27px;
+}
+.slick-prev,
+.slick-next {
+    display: none !important;
+}

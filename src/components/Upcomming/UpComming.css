@@ -1,0 +1,160 @@
+.heading h1{
+    font-weight: 500;
+    margin: 30px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #e50813;
+}
+
+.heading a {
+    color: #e50813;
+
+}
+
+.MovieBox{
+    width: 270px;
+    margin: 0 auto;
+    height: 430px;
+    position: relative;
+    transition: 0.5s;
+    border-left: 5px solid transparent;
+}
+
+.MovieBox:hover{
+    cursor: pointer;
+    border-left: 5px solid #e50813;
+    transform: scale3d(1.1, 1.1, 1) translate3d(6%, 0, 0) perspective(31.25em);
+    box-shadow: 0 0 0.73em rgba(0, 0, 0, 0.9);
+    transition: all .5s;
+}
+
+.MovieBox::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 270px;
+    height: 430px;
+    z-index: -1;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.8), rgba(20, 20, 20, 0.4), rgba(83, 100, 141, 0), 100%);
+}
+
+.MovieBox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.MovieBox .text{
+    padding: 70px 20px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+    transition: opacity 0.5s ease;
+}
+.MovieBox h3{
+    font-weight: 500;
+    margin-bottom: 25px;
+    font-size: 1.1rem;
+    color: #fff;
+}
+.MovieBox button{
+    margin-top: 25px;
+    /* padding:  12px 30px; */
+    font-size: 13px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.upcome{
+    text-align: center;
+    margin-top: 30px;
+}
+.upcome .container {
+    margin: 0 auto;
+}
+.upcome .content button{
+    margin-bottom: 20px;
+}
+
+.control-btn{
+    color: #fff;
+}
+.ant-modal-body{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ant-modal-footer{
+    display: none;
+}
+.buttonLeft, .buttonRight{
+    width: 20%;
+}
+.buttonLeft{
+    margin-right: 10px;
+}
+.buttonRight{
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .ant-modal-body{
+        height: 500px;
+    }
+    .buttonLeft, .buttonRight {
+        width: 27%;
+    }
+  }
+@media screen and (max-width: 820px) {
+    .buttonLeft, .buttonRight {
+        width: 30%;
+    }
+}
+@media screen and (max-width: 770px) {
+    /* .upcome{
+        margin-top: 130px;
+    } */
+}
+@media screen and (max-width: 540px) {
+    .upcome{
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width:418px){
+    .ant-modal-body{
+        height: 300px;
+    }
+    .upcome{
+        margin-top: 40px;
+    }
+    .buttonLeft, .buttonRight{
+        width: 45%;
+    }
+}
+@media screen and (max-width:380px){
+    .upcome{
+        margin-top: 80px;
+    }
+}
+@media screen and (max-width:330px){
+    .upcome{
+        margin-top: 160px;
+    }
+}
+@media screen and (max-width:280px){
+    .MovieBox{
+        width: 247px;
+    }
+}

@@ -1,0 +1,36 @@
+.Login{
+    width: 600px;
+    height: fit-content;
+    z-index: 1000;
+    position: relative;
+    border-radius: 6px;
+    background-image: linear-gradient(to bottom,rgb(28 33 41 / 90%),rgb(39 43 49 / 90%));
+}
+
+.Login .Login_textbox{
+    padding: 60px 32px 30px;
+    color: #f8f9fa!important;
+}
+.Login_textbox img{
+    width: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 13px;
+}
+
+.Login_textbox p{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.Login_textbox input{
+    color: rgba(0, 0, 0, 0.634);
+    padding: 5px;
+}
+
+@media screen and (max-width:550px){
+    .Login{
+        width: 500px;
+    }
+}

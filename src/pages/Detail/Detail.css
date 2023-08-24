@@ -1,0 +1,145 @@
+.mainDetail {
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    overflow: hidden;
+    min-height: 100vh;
+    position: relative;
+}
+.mainDetail .banner {
+    padding-top: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+.mainDetail .banner::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+}
+
+.mainDetail .detailContent {
+    color: rgb(255, 255, 255);
+    max-width: 1200px;
+    margin: auto;
+    padding: 16px;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.mainDetail .detailContent .detailImg {
+    padding-top: 140%;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-color: darkgrey;
+}
+
+.detailDesc .detailRate {
+    position: relative;
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.detailDesc .detailRate::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    height: 5px;
+    width: 100px;
+    background-color: #e50813;
+}
+
+.mainDetail .detailBooking {
+    max-width: 1200px;
+    margin: auto;
+    padding: 16px;
+    position: absolute;
+    top: 70%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.detailBooking .theaterTicket .ant-tabs-nav-list{
+    height: 340px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+}
+
+.detailBooking .theaterTicket .theaterTicketBooking{
+    height: 340px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+}
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width:1028px){
+    .mainDetail .banner{
+        padding-top: 135%;
+    }
+
+    .mainDetail .detailBooking{
+        top: 65%;
+    }
+}
+
+@media screen and (max-width:920px){
+    .mainDetail .banner{
+        padding-top: 150%;
+    }
+
+    .mainDetail .detailBooking{
+        top: 60%;
+    }
+}
+
+@media screen and (max-width:560px){
+    .mainDetail .banner{
+        padding-top: 180%;
+    }
+}
+
+@media screen and (max-width:420px){
+    .mainDetail .banner{
+        padding-top: 500%;
+    }
+    .mainDetail .detailContent{
+        top: 5%;
+    }
+    .mainDetail .detailBooking{
+        top: 67%;
+    }
+
+    .detailBooking .theaterTicket .ant-tabs-nav-list{
+        height: 380px;
+    }
+    
+    .detailBooking .theaterTicket .theaterTicketBooking{
+        height: 380px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .mainDetail .banner{
+        padding-top: 600%;
+    }
+}
